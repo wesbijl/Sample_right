@@ -8,9 +8,8 @@
     </Interface>
     <Implementation>
       <ST><![CDATA[
-        // Submitted TwinCAT program (LOCAL)
-        // Intentionally different from the reference to demonstrate a diff
-        counter := counter + 1;
+        // Reference TwinCAT program (from Git)
+        counter := counter + 2;
       ]]></ST>
     </Implementation>
   </POU>
