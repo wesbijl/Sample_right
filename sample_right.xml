@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.0">
+  <POU Name="MAIN" PouType="program">
+    <Interface>
+      <LocalVars>
+        <Var Name="counter" Type="INT" />
+      </LocalVars>
+    </Interface>
+    <Implementation>
+      <ST><![CDATA[
+        // Reference TwinCAT program (from Git)
+        counter := counter + 2;
+      ]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
